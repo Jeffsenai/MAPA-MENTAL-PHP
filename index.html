@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Saudação Dinâmica</title>
+</head>
+<body>
+    <h1>
+        <?php
+        $hora = date("H");
+        if ($hora < 12) {
+            echo "Bom dia!";
+        } elseif ($hora < 18) {
+            echo "Boa tarde!";
+        } else {
+            echo "Boa noite!";
+        }
+        ?>
+    </h1>
+</body>
+</html>
