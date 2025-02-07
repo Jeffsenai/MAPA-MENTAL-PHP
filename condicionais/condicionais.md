@@ -1,0 +1,1 @@
+As estruturas condicionais são utilizadas para tomar decisões no código com base em uma condição. No PHP, o if, elseif e else é utilizado para executar diferentes blocos de código dependendo de uma condição lógica.
